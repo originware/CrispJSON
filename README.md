@@ -8,7 +8,7 @@ Platforms    | OSX, iOS, watchOS, tvOS and Linux package
 :------------| :--------------------------------------
 Language     | Swift 3.0
 Origination  | [Originware](http://www.originware.com) 
-Git Repo     | [bitbucket.org/originware/crispjson](https://bitbucket.org/originware/crispjson)    
+Git Repo     | [https://github.com/originware/CrispJSON)    
 Requirements | Xcode 8 or the Swift 3 compiler toolchain for Linux.
 
 
@@ -84,7 +84,7 @@ CrispJSON uses a variety of parsing mechanisms:
      * Strings - matching specific object entries.
      * JMatch - regex matching object entries.
      
-See the git repo [Playground](https://bitbucket.org/originware/crispjson/src/f02f9385a798726d40ef6ebe7cd7c6789282d885/CrispJSON%20Use%20Senario%20Playground.playground/Contents.swift?at=master&fileviewer=file-view-default) source for an extensive set of use-scenarios, including:
+See the git repo [Playground](https://github.com/originware/CrispJSON/blob/master/CrispJSON%20Use%20Senario%20Playground.playground/Contents.swift) source for an extensive set of use-scenarios, including:
 
   * Iteration and Recursion.
   * Object datatype checking.
