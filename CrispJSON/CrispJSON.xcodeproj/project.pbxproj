@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA05F24F1DAF1F2200B4DA1A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA05F24D1DAF1F2200B4DA1A /* Info.plist */; };
+		FA05F2501DAF1F2F00B4DA1A /* CrispJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FA05F24C1DAF1F2200B4DA1A /* CrispJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA05F2621DAF20C700B4DA1A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA05F2601DAF20C700B4DA1A /* Info.plist */; };
+		FA05F2631DAF215100B4DA1A /* CrispJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FA05F25F1DAF20C700B4DA1A /* CrispJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA05F2641DAF21AC00B4DA1A /* CrispJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FA98EBBE1DAF15BC00C5316F /* CrispJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA846A801DAF1066002F5CE5 /* CrispJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA846A761DAF1066002F5CE5 /* CrispJSON.framework */; };
+		FA98EBA01DAF112E00C5316F /* CrispJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98EB9E1DAF112E00C5316F /* CrispJSON.swift */; };
+		FA98EBA11DAF112E00C5316F /* CrispJSON-support.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98EB9F1DAF112E00C5316F /* CrispJSON-support.swift */; };
+		FA98EBA51DAF118600C5316F /* JSONDataSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98EBA41DAF118600C5316F /* JSONDataSets.swift */; };
+		FA98EBAA1DAF11CF00C5316F /* DataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98EBA61DAF11CF00C5316F /* DataSourceTests.swift */; };
+		FA98EBAB1DAF11CF00C5316F /* PrimitiveValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98EBA71DAF11CF00C5316F /* PrimitiveValueTests.swift */; };
+		FA98EBAC1DAF11CF00C5316F /* DataTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98EBA81DAF11CF00C5316F /* DataTypeTests.swift */; };
+		FA98EBAD1DAF11CF00C5316F /* InterationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98EBA91DAF11CF00C5316F /* InterationTests.swift */; };
+		FA98EBC61DAF15CF00C5316F /* CrispJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FA98EBC11DAF15BC00C5316F /* CrispJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA98EBC71DAF17DD00C5316F /* CrispJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98EB9E1DAF112E00C5316F /* CrispJSON.swift */; };
+		FA98EBC81DAF17E000C5316F /* CrispJSON-support.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98EB9F1DAF112E00C5316F /* CrispJSON-support.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA846A811DAF1066002F5CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA846A6D1DAF1066002F5CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA846A751DAF1066002F5CE5;
+			remoteInfo = CrispJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA05F24C1DAF1F2200B4DA1A /* CrispJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrispJSON.h; sourceTree = "<group>"; };
+		FA05F24D1DAF1F2200B4DA1A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA05F2561DAF1FF100B4DA1A /* CrispJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrispJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA05F2581DAF1FF100B4DA1A /* CrispJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrispJSON.h; sourceTree = "<group>"; };
+		FA05F2591DAF1FF100B4DA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA05F25F1DAF20C700B4DA1A /* CrispJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrispJSON.h; sourceTree = "<group>"; };
+		FA05F2601DAF20C700B4DA1A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA846A761DAF1066002F5CE5 /* CrispJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrispJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA846A7F1DAF1066002F5CE5 /* CrispJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrispJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA846A861DAF1066002F5CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA98EB9E1DAF112E00C5316F /* CrispJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrispJSON.swift; sourceTree = "<group>"; };
+		FA98EB9F1DAF112E00C5316F /* CrispJSON-support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CrispJSON-support.swift"; sourceTree = "<group>"; };
+		FA98EBA41DAF118600C5316F /* JSONDataSets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDataSets.swift; sourceTree = "<group>"; };
+		FA98EBA61DAF11CF00C5316F /* DataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceTests.swift; sourceTree = "<group>"; };
+		FA98EBA71DAF11CF00C5316F /* PrimitiveValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitiveValueTests.swift; sourceTree = "<group>"; };
+		FA98EBA81DAF11CF00C5316F /* DataTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTypeTests.swift; sourceTree = "<group>"; };
+		FA98EBA91DAF11CF00C5316F /* InterationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterationTests.swift; sourceTree = "<group>"; };
+		FA98EBB31DAF128100C5316F /* CrispJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrispJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA98EBBE1DAF15BC00C5316F /* CrispJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrispJSON.h; sourceTree = "<group>"; };
+		FA98EBBF1DAF15BC00C5316F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA98EBC11DAF15BC00C5316F /* CrispJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrispJSON.h; sourceTree = "<group>"; };
+		FA98EBC21DAF15BC00C5316F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA98EBC91DAF1BFC00C5316F /* CrispJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrispJSON.h; sourceTree = "<group>"; };
+		FA98EBCF1DAF1D3200C5316F /* CrispJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrispJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA98EBD21DAF1D3200C5316F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA05F2521DAF1FF100B4DA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA846A721DAF1066002F5CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA846A7C1DAF1066002F5CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA846A801DAF1066002F5CE5 /* CrispJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA98EBAF1DAF128100C5316F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA98EBCB1DAF1D3200C5316F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA05F24B1DAF1F2200B4DA1A /* CrispJSON watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA05F24C1DAF1F2200B4DA1A /* CrispJSON.h */,
+				FA05F24D1DAF1F2200B4DA1A /* Info.plist */,
+			);
+			path = "CrispJSON watchOS";
+			sourceTree = "<group>";
+		};
+		FA05F2571DAF1FF100B4DA1A /* CrispJSON */ = {
+			isa = PBXGroup;
+			children = (
+				FA05F2581DAF1FF100B4DA1A /* CrispJSON.h */,
+				FA05F2591DAF1FF100B4DA1A /* Info.plist */,
+			);
+			path = CrispJSON;
+			sourceTree = "<group>";
+		};
+		FA05F25E1DAF20C700B4DA1A /* CrispJSON tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA05F25F1DAF20C700B4DA1A /* CrispJSON.h */,
+				FA05F2601DAF20C700B4DA1A /* Info.plist */,
+			);
+			path = "CrispJSON tvOS";
+			sourceTree = "<group>";
+		};
+		FA846A6C1DAF1066002F5CE5 = {
+			isa = PBXGroup;
+			children = (
+				FA98EBBC1DAF137D00C5316F /* Platforms */,
+				FA98EBA31DAF118600C5316F /* Data */,
+				FA846A781DAF1066002F5CE5 /* Sources */,
+				FA846A831DAF1066002F5CE5 /* CrispJSONTests */,
+				FA98EBD01DAF1D3200C5316F /* CrispJSON */,
+				FA05F2571DAF1FF100B4DA1A /* CrispJSON */,
+				FA846A771DAF1066002F5CE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA846A771DAF1066002F5CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA846A761DAF1066002F5CE5 /* CrispJSON.framework */,
+				FA846A7F1DAF1066002F5CE5 /* CrispJSONTests.xctest */,
+				FA98EBB31DAF128100C5316F /* CrispJSON.framework */,
+				FA98EBCF1DAF1D3200C5316F /* CrispJSON.framework */,
+				FA05F2561DAF1FF100B4DA1A /* CrispJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA846A781DAF1066002F5CE5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA98EBC91DAF1BFC00C5316F /* CrispJSON.h */,
+				FA98EB9E1DAF112E00C5316F /* CrispJSON.swift */,
+				FA98EB9F1DAF112E00C5316F /* CrispJSON-support.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FA846A831DAF1066002F5CE5 /* CrispJSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA98EBA61DAF11CF00C5316F /* DataSourceTests.swift */,
+				FA98EBA71DAF11CF00C5316F /* PrimitiveValueTests.swift */,
+				FA98EBA81DAF11CF00C5316F /* DataTypeTests.swift */,
+				FA98EBA91DAF11CF00C5316F /* InterationTests.swift */,
+				FA846A861DAF1066002F5CE5 /* Info.plist */,
+			);
+			path = CrispJSONTests;
+			sourceTree = "<group>";
+		};
+		FA98EBA31DAF118600C5316F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA98EBA41DAF118600C5316F /* JSONDataSets.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FA98EBBC1DAF137D00C5316F /* Platforms */ = {
+			isa = PBXGroup;
+			children = (
+				FA05F25E1DAF20C700B4DA1A /* CrispJSON tvOS */,
+				FA05F24B1DAF1F2200B4DA1A /* CrispJSON watchOS */,
+				FA98EBBD1DAF15BC00C5316F /* CrispJSON OSX */,
+				FA98EBC01DAF15BC00C5316F /* CrispJSON iOS */,
+			);
+			path = Platforms;
+			sourceTree = "<group>";
+		};
+		FA98EBBD1DAF15BC00C5316F /* CrispJSON OSX */ = {
+			isa = PBXGroup;
+			children = (
+				FA98EBBE1DAF15BC00C5316F /* CrispJSON.h */,
+				FA98EBBF1DAF15BC00C5316F /* Info.plist */,
+			);
+			path = "CrispJSON OSX";
+			sourceTree = "<group>";
+		};
+		FA98EBC01DAF15BC00C5316F /* CrispJSON iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA98EBC11DAF15BC00C5316F /* CrispJSON.h */,
+				FA98EBC21DAF15BC00C5316F /* Info.plist */,
+			);
+			path = "CrispJSON iOS";
+			sourceTree = "<group>";
+		};
+		FA98EBD01DAF1D3200C5316F /* CrispJSON */ = {
+			isa = PBXGroup;
+			children = (
+				FA98EBD21DAF1D3200C5316F /* Info.plist */,
+			);
+			path = CrispJSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA05F2531DAF1FF100B4DA1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05F2631DAF215100B4DA1A /* CrispJSON.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA846A731DAF1066002F5CE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05F2641DAF21AC00B4DA1A /* CrispJSON.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA98EBB01DAF128100C5316F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA98EBC61DAF15CF00C5316F /* CrispJSON.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA98EBCC1DAF1D3200C5316F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05F2501DAF1F2F00B4DA1A /* CrispJSON.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA05F2551DAF1FF100B4DA1A /* CrispJSON tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA05F25B1DAF1FF100B4DA1A /* Build configuration list for PBXNativeTarget "CrispJSON tvOS" */;
+			buildPhases = (
+				FA05F2511DAF1FF100B4DA1A /* Sources */,
+				FA05F2521DAF1FF100B4DA1A /* Frameworks */,
+				FA05F2531DAF1FF100B4DA1A /* Headers */,
+				FA05F2541DAF1FF100B4DA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrispJSON tvOS";
+			productName = CrispJSON;
+			productReference = FA05F2561DAF1FF100B4DA1A /* CrispJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA846A751DAF1066002F5CE5 /* CrispJSON OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA846A8A1DAF1066002F5CE5 /* Build configuration list for PBXNativeTarget "CrispJSON OSX" */;
+			buildPhases = (
+				FA846A711DAF1066002F5CE5 /* Sources */,
+				FA846A721DAF1066002F5CE5 /* Frameworks */,
+				FA846A731DAF1066002F5CE5 /* Headers */,
+				FA846A741DAF1066002F5CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrispJSON OSX";
+			productName = CrispJSON;
+			productReference = FA846A761DAF1066002F5CE5 /* CrispJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA846A7E1DAF1066002F5CE5 /* CrispJSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA846A8D1DAF1066002F5CE5 /* Build configuration list for PBXNativeTarget "CrispJSONTests" */;
+			buildPhases = (
+				FA846A7B1DAF1066002F5CE5 /* Sources */,
+				FA846A7C1DAF1066002F5CE5 /* Frameworks */,
+				FA846A7D1DAF1066002F5CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA846A821DAF1066002F5CE5 /* PBXTargetDependency */,
+			);
+			name = CrispJSONTests;
+			productName = CrispJSONTests;
+			productReference = FA846A7F1DAF1066002F5CE5 /* CrispJSONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA98EBB21DAF128100C5316F /* CrispJSON iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA98EBB81DAF128100C5316F /* Build configuration list for PBXNativeTarget "CrispJSON iOS" */;
+			buildPhases = (
+				FA98EBAE1DAF128100C5316F /* Sources */,
+				FA98EBAF1DAF128100C5316F /* Frameworks */,
+				FA98EBB01DAF128100C5316F /* Headers */,
+				FA98EBB11DAF128100C5316F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrispJSON iOS";
+			productName = CrispJSON;
+			productReference = FA98EBB31DAF128100C5316F /* CrispJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA98EBCE1DAF1D3200C5316F /* CrispJSON watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA98EBD41DAF1D3200C5316F /* Build configuration list for PBXNativeTarget "CrispJSON watchOS" */;
+			buildPhases = (
+				FA98EBCA1DAF1D3200C5316F /* Sources */,
+				FA98EBCB1DAF1D3200C5316F /* Frameworks */,
+				FA98EBCC1DAF1D3200C5316F /* Headers */,
+				FA98EBCD1DAF1D3200C5316F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrispJSON watchOS";
+			productName = CrispJSON;
+			productReference = FA98EBCF1DAF1D3200C5316F /* CrispJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA846A6D1DAF1066002F5CE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Originware;
+				TargetAttributes = {
+					FA05F2551DAF1FF100B4DA1A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FA846A751DAF1066002F5CE5 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					FA846A7E1DAF1066002F5CE5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FA98EBB21DAF128100C5316F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FA98EBCE1DAF1D3200C5316F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA846A701DAF1066002F5CE5 /* Build configuration list for PBXProject "CrispJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA846A6C1DAF1066002F5CE5;
+			productRefGroup = FA846A771DAF1066002F5CE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA846A751DAF1066002F5CE5 /* CrispJSON OSX */,
+				FA98EBB21DAF128100C5316F /* CrispJSON iOS */,
+				FA98EBCE1DAF1D3200C5316F /* CrispJSON watchOS */,
+				FA05F2551DAF1FF100B4DA1A /* CrispJSON tvOS */,
+				FA846A7E1DAF1066002F5CE5 /* CrispJSONTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA05F2541DAF1FF100B4DA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA846A741DAF1066002F5CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05F2621DAF20C700B4DA1A /* Info.plist in Resources */,
+				FA05F24F1DAF1F2200B4DA1A /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA846A7D1DAF1066002F5CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA98EBB11DAF128100C5316F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA98EBCD1DAF1D3200C5316F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA05F2511DAF1FF100B4DA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA846A711DAF1066002F5CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA98EBA01DAF112E00C5316F /* CrispJSON.swift in Sources */,
+				FA98EBA11DAF112E00C5316F /* CrispJSON-support.swift in Sources */,
+				FA98EBA51DAF118600C5316F /* JSONDataSets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA846A7B1DAF1066002F5CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA98EBAB1DAF11CF00C5316F /* PrimitiveValueTests.swift in Sources */,
+				FA98EBAC1DAF11CF00C5316F /* DataTypeTests.swift in Sources */,
+				FA98EBAA1DAF11CF00C5316F /* DataSourceTests.swift in Sources */,
+				FA98EBAD1DAF11CF00C5316F /* InterationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA98EBAE1DAF128100C5316F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA98EBC71DAF17DD00C5316F /* CrispJSON.swift in Sources */,
+				FA98EBC81DAF17E000C5316F /* CrispJSON-support.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA98EBCA1DAF1D3200C5316F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA846A821DAF1066002F5CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA846A751DAF1066002F5CE5 /* CrispJSON OSX */;
+			targetProxy = FA846A811DAF1066002F5CE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA05F25C1DAF1FF100B4DA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Platforms/CrispJSON tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originware.CrispJSON;
+				PRODUCT_NAME = CrispJSON;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		FA05F25D1DAF1FF100B4DA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Platforms/CrispJSON tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originware.CrispJSON;
+				PRODUCT_NAME = CrispJSON;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA846A881DAF1066002F5CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA846A891DAF1066002F5CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA846A8B1DAF1066002F5CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Platforms/CrispJSON OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originware.CrispJSON;
+				PRODUCT_NAME = CrispJSON;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA846A8C1DAF1066002F5CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Platforms/CrispJSON OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originware.CrispJSON;
+				PRODUCT_NAME = CrispJSON;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA846A8E1DAF1066002F5CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CrispJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originware.CrispJSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA846A8F1DAF1066002F5CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CrispJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originware.CrispJSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA98EBB91DAF128100C5316F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Platforms/CrispJSON iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originware.CrispJSON;
+				PRODUCT_NAME = CrispJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA98EBBA1DAF128100C5316F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Platforms/CrispJSON iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originware.CrispJSON;
+				PRODUCT_NAME = CrispJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA98EBD51DAF1D3200C5316F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Platforms/CrispJSON watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originware.CrispJSON;
+				PRODUCT_NAME = CrispJSON;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		FA98EBD61DAF1D3200C5316F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Platforms/CrispJSON watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originware.CrispJSON;
+				PRODUCT_NAME = CrispJSON;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA05F25B1DAF1FF100B4DA1A /* Build configuration list for PBXNativeTarget "CrispJSON tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA05F25C1DAF1FF100B4DA1A /* Debug */,
+				FA05F25D1DAF1FF100B4DA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA846A701DAF1066002F5CE5 /* Build configuration list for PBXProject "CrispJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA846A881DAF1066002F5CE5 /* Debug */,
+				FA846A891DAF1066002F5CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA846A8A1DAF1066002F5CE5 /* Build configuration list for PBXNativeTarget "CrispJSON OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA846A8B1DAF1066002F5CE5 /* Debug */,
+				FA846A8C1DAF1066002F5CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA846A8D1DAF1066002F5CE5 /* Build configuration list for PBXNativeTarget "CrispJSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA846A8E1DAF1066002F5CE5 /* Debug */,
+				FA846A8F1DAF1066002F5CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA98EBB81DAF128100C5316F /* Build configuration list for PBXNativeTarget "CrispJSON iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA98EBB91DAF128100C5316F /* Debug */,
+				FA98EBBA1DAF128100C5316F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA98EBD41DAF1D3200C5316F /* Build configuration list for PBXNativeTarget "CrispJSON watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA98EBD51DAF1D3200C5316F /* Debug */,
+				FA98EBD61DAF1D3200C5316F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA846A6D1DAF1066002F5CE5 /* Project object */;
+}
