@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA05F24F1DAF1F2200B4DA1A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA05F24D1DAF1F2200B4DA1A /* Info.plist */; };
 		FA05F2501DAF1F2F00B4DA1A /* CrispJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FA05F24C1DAF1F2200B4DA1A /* CrispJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA05F2621DAF20C700B4DA1A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA05F2601DAF20C700B4DA1A /* Info.plist */; };
 		FA05F2631DAF215100B4DA1A /* CrispJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FA05F25F1DAF20C700B4DA1A /* CrispJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA05F2641DAF21AC00B4DA1A /* CrispJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FA98EBBE1DAF15BC00C5316F /* CrispJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA846A801DAF1066002F5CE5 /* CrispJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA846A761DAF1066002F5CE5 /* CrispJSON.framework */; };
@@ -357,7 +355,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Originware;
 				TargetAttributes = {
 					FA05F2551DAF1FF100B4DA1A = {
@@ -416,8 +414,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA05F2621DAF20C700B4DA1A /* Info.plist in Resources */,
-				FA05F24F1DAF1F2200B4DA1A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +557,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -613,6 +610,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -712,7 +710,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -734,7 +732,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -808,6 +806,7 @@
 				FA05F25D1DAF1FF100B4DA1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA846A701DAF1066002F5CE5 /* Build configuration list for PBXProject "CrispJSON" */ = {
 			isa = XCConfigurationList;

@@ -11,7 +11,7 @@
 
 import Foundation
 import CoreLocation
-//import CrispJSON
+import CrispJSON
 
 
 //: ***

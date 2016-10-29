@@ -455,9 +455,11 @@ extension CrispJSON.JTree
 
             for name in names
             {
+                guard let dictValue = dictionary[name] else { continue }
+                
                 context.trace("[forObjectValues][\(name)]"); gaveTrace = true
 
-                parseAction(name, CrispJSON.JTree(dictionary[name], context : context.pushLevel(name)))
+                parseAction(name, CrispJSON.JTree(dictValue, context : context.pushLevel(name)))
             }
         }
         else
@@ -493,9 +495,11 @@ extension CrispJSON.JTree
 
             for name in names
             {
+                guard let dictValue = dictionary[name] else { continue }
+                
                 context.trace("[forObjectValuesThrows][\(name)]"); gaveTrace = true
 
-                try parseAction(name, CrispJSON.JTree(dictionary[name], context : context.pushLevel(name)))
+                try parseAction(name, CrispJSON.JTree(dictValue, context : context.pushLevel(name)))
             }
         }
         else
@@ -666,7 +670,7 @@ extension CrispJSON.JTree
             {
                 if entryName.range(of: matchExpr, options: options) != nil
                 {
-                    let namedValue = contentAsDict[entryName]
+                    guard let namedValue = contentAsDict[entryName] else { continue }
 
                     context.trace("try match[JRegex(\(match))] => matched")
 

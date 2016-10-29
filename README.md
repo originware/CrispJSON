@@ -1,5 +1,5 @@
 ---
-# README: CrispJSON v1.0.1 
+# README: CrispJSON v1.0.3 
 
 CrispJSON allows you to create concise and readable JSON parsing code in Swift. Scalable and lightweight, it parses both simple and complex JSON. 
 
@@ -9,7 +9,7 @@ Platforms    | OSX, iOS, watchOS, tvOS and Linux package
 Language     | Swift 3.0
 Origination  | [Originware](http://www.originware.com) 
 Git Repo     | [https://github.com/originware/CrispJSON)    
-Requirements | Xcode 8 or the Swift 3 compiler toolchain for Linux.
+Requirements | Xcode 8+ or the Swift 3 compiler toolchain for Linux.
 
 
 ### Example Use (parsing Google Places JSON)

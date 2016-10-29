@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CrispJSON'
-  s.version          = '1.0.1'
+  s.version          = '1.0.3'
   s.summary          = 'Create concise and readable JSON parsers with CrispJSON.'
   s.homepage    	  = "https://bitbucket.org/originware/crispjson"
   s.license          = { :type => "Apache 2.0" }
